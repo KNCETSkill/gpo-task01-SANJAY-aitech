@@ -23,6 +23,10 @@ public class BrewSizeAdvisor {
                 System.out.println("Small");
             }
         }
+        else
+        {
+            System.out.println("Invalid Input");
+        }
         sc.close();
     }
 }
